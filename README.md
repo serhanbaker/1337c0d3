@@ -5,6 +5,8 @@ Solutions for the problems at [leetcode](http://oj.leetcode.com/)
 
 ```java
 public static void main(String[] args){
- // test the solution function
-}
+    int x = -1337;
+    System.out.println(reverse(x));
+  }
 ```
+<sub>(example main function for reverse-integer solution)</sub>
