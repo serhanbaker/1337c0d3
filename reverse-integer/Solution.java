@@ -18,9 +18,5 @@ public class Solution {
     xstr = sb.toString();
     return Integer.parseInt(xstr);
   }
-
-  public static void main(String[] args){
-    int x = -1337;
-    System.out.println(reverse(x));
-  }
+  
 }
