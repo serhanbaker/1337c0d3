@@ -1,4 +1,5 @@
 public class Solution {
+  // http://oj.leetcode.com/problems/string-to-integer-atoi/
   public static int atoi(String str) {
     if (str.isEmpty() || str == null || str.length() < 1)
       return 0;
