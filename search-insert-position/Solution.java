@@ -14,7 +14,7 @@ public class Solution {
             else
                 return mid;
         }
-        /* we are out from the loop now
+        /* we are out of the loop now
          * therefore, low > high */
         return low;
     }
