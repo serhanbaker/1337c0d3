@@ -27,4 +27,9 @@ public class Solution {
 
     return (int) result;
   }
+
+  public static void main(String[] args){
+    String str = "-350";
+    System.out.println(atoi(str));
+  }
 }
