@@ -1,4 +1,6 @@
 public class Solution {
+    // Length of Last Word
+    // http://oj.leetcode.com/submissions/detail/4314995/
     public static int lengthOfLastWord(String s) {
         if (s.isEmpty() || s == null)
             return 0;
