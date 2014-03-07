@@ -3,7 +3,7 @@ import java.util.Hashtable;
 public class Solution{
     // Remove Duplicates From Sorted List
     // http://oj.leetcode.com/problems/remove-duplicates-from-sorted-list/
-    public static ListNode deleteDuplicates(ListNode head) {
+    public static ListNode deleteDuplicates(ListNode head) { //deletes from unsorted list either
         Hashtable<Integer, Boolean> table = new Hashtable<Integer, Boolean>();
         ListNode previous = null;
         ListNode dummy = new ListNode(0);
