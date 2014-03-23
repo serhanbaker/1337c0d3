@@ -18,6 +18,10 @@ public class Solution {
         if (fastRunner == null || fastRunner.next == null)
             return false;
 
+       /* slow runner = head
+        * then iterate slow and fast runners at the same pace
+        * they will meet at some point. the point is the meeting point
+        */
         slowRunner = head;
         while (slowRunner != fastRunner){
             slowRunner = slowRunner.next;
