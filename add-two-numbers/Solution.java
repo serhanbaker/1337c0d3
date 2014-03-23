@@ -23,8 +23,8 @@ public class Solution {
             p3 = p3.next;
             carry /= 10;
         }
-
-        if(carry==1)
+        
+        if(carry == 1)
             p3.next=new ListNode(1);
 
         return newHead.next;
