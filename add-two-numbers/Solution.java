@@ -2,7 +2,7 @@ public class Solution {
     // Add Two Numbers
     // http://oj.leetcode.com/problems/add-two-numbers/
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-       int carry = 0;
+        int carry = 0;
         ListNode newHead = new ListNode(0);
         ListNode p1 = l1;
         ListNode p2 = l2;
@@ -23,7 +23,7 @@ public class Solution {
             p3 = p3.next;
             carry /= 10;
         }
-        
+
         if(carry == 1)
             p3.next=new ListNode(1);
 
